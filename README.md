@@ -8,16 +8,16 @@ In the project directory, you can run:
 
 ### `Project Overview`
 
-1. Build up by React JS.\
-2. Full Website is Responsive.\
+1. Build up by React JS.
+2. Full Website is Responsive.
 
 
 ### `Use Technology`
 
-1. React.\
-2. JavaScript\
-3. React Router.\
-4. SASS.\
+1. React.
+2. JavaScript
+3. React Router.
+4. SASS.
 
 
 ### `npm run build`
