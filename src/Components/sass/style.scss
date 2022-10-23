@@ -13,6 +13,14 @@ body {
     @include body;
 }
 
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 //Navbar style
 
 
@@ -37,14 +45,9 @@ nav {
         height: 50px;
     }
 
-    li {
-        list-style: none;
-
-    }
 
     a {
         color: $primary;
-        text-decoration: none;
         font-weight: 600;
         margin: 15px;
         font-size: 16px;
@@ -115,61 +118,69 @@ img {
         @include button-report;
         margin-top: 10px;
     }
-    button:hover{
+
+    button:hover {
         @include button-report;
         background-color: #c0e2d7;
     }
 }
- //skymiles- banner style
-.skymiles-banner{
+
+//skymiles- banner style
+.skymiles-banner {
     width: 100%;
     height: 436px;
     background-color: #d4e9e2;
     margin-top: 35px;
     padding: 4px 10px;
+
     .flex-container {
         @include flex-container;
         align-items: flex-start;
-        
+
     }
-    .banner-img{
+
+    .banner-img {
         width: 58%;
     }
 
-    img{
-      
+    img {
+
         height: auto;
         object-fit: cover;
     }
-    .banner-content{
-      text-align: start;
-       width: 80%;
-       padding: 5px 30px;
-       
-        h4{
+
+    .banner-content {
+        text-align: start;
+        width: 80%;
+        padding: 5px 30px;
+
+        h4 {
             font-size: 24px;
             color: #1e3932;
             font-weight: 600;
             padding: 10px;
-          
+
         }
-        p{
+
+        p {
             font-size: 19px;
             color: #1e3932;
-            margin-top: 10px;     
+            margin-top: 10px;
         }
-        
-        li{
+
+        li {
             font-size: 16px;
             color: #1e3932;
-            margin: 10px 22px 20px 20px;   
+            margin: 10px 22px 20px 20px;
         }
     }
+
     button {
         @include button-report;
         margin-top: 10px;
     }
-    button:hover{
+
+    button:hover {
         @include button-report;
         background-color: #c0e2d7;
     }
@@ -182,107 +193,127 @@ img {
     width: 100%;
     height: 584px;
     background-color: $secondary;
-    .banner-img{
+
+    .banner-img {
         width: 68%;
     }
-    img{
-        
+
+    img {
+
         object-fit: cover;
     }
-    .banner-content{
+
+    .banner-content {
         padding: 20px;
-      
-        h1{
+
+        h1 {
             color: $font-color;
             font-size: 48px;
         }
-        p{
-            color: $font-color; 
+
+        p {
+            color: $font-color;
             font-size: 24px
         }
+
         button {
             @include button-report;
             @include button-basic;
         }
-        button:hover{
+
+        button:hover {
             @include button-report;
-            background-color: #32755f;    
+            background-color: #32755f;
         }
     }
 }
 
 //apple yum banner
-.appleyum-banner{
+.appleyum-banner {
     width: 100%;
     height: 585px;
     background-color: $secondary;
-    .banner-img{
+
+    .banner-img {
         width: 68%;
     }
-    .banner-img{
+
+    .banner-img {
         width: 79%;
     }
-    img{
-        
+
+    img {
+
         object-fit: cover;
     }
-    .banner-content{
-        
-        h1{
+
+    .banner-content {
+
+        h1 {
             color: $font-color;
             font-size: 48px;
         }
-        p{
-            color: $font-color; 
+
+        p {
+            color: $font-color;
             font-size: 24px
         }
+
         button {
             @include button-report;
             @include button-basic;
         }
-        button:hover{
+
+        button:hover {
             @include button-report;
-            background-color: #32755f;    
+            background-color: #32755f;
         }
     }
 }
 
 // cards content part 
 
-.card-content{
+.card-content {
     @include card-text;
     height: 200px;
-    p{
-    font-size: 16px;
-    max-width: 57%;
-    color: #000000;
+
+    p {
+        font-size: 16px;
+        max-width: 57%;
+        color: #000000;
     }
-    a{
+
+    a {
         color: #000000;
     }
 }
+
 //purchase content style
-.purchase-content{
+.purchase-content {
     @include card-text;
     height: 200px;
-   
-    .purchase{
+
+    .purchase {
         padding: 20px;
         width: 52%;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
-    span{
+
+    span {
         font-size: 16px;
     }
-    h5{
+
+    h5 {
         font-size: 16px;
         margin-top: 15px;
         color: #000000;
         font-weight: 400;
     }
-    a{
+
+    a {
         color: #000000;
     }
 
@@ -290,53 +321,86 @@ img {
 
 //contact part style
 
-.contact{
+.contact {
     @include flex-container;
     align-items: flex-start;
     justify-content: space-around;
     width: 100%;
-    padding: 10px;   
+    padding: 10px;
     border-top: 2px solid rgb(219, 214, 214);
-    ul{
-        list-style: none;   
-       
-    }
-    li{
+    border-bottom: 2px solid rgb(219, 214, 214);
+
+    li {
         padding: 10px;
         font-size: 20px;
-       
+
     }
-    a{
-        text-decoration: none;
+
+    a {
         font-size: 14px;
         color: rgb(111, 111, 112);
     }
 
-    a:hover{
+    a:hover {
         color: $primary;
         font-weight: 500;
     }
 
 }
 
-.social-icon{
+//social icon
+
+.social-icon {
     margin: 15px;
-    ul{
+
+    ul {
         display: flex;
-        list-style: none;
+
     }
-    li{
-      padding: 4px;
-      margin: 40px 0px 0px 10px;
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
-      background-color: rgb(22, 22, 22);
-      text-align: center;
+
+    li {
+        padding: 4px;
+        margin: 40px 0px 0px 10px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(22, 22, 22);
+        text-align: center;
     }
-    i{ 
+
+    i {
         color: #d4e9e2;
         font-size: 20px;
     }
-  
+
+}
+
+
+// cookie
+
+.cookie {
+    ul {
+        @include flex-container;
+        justify-content: flex-start;
+        margin: 18px;
+        gap: 15px;   
+    }
+   
+    a{
+      color: $primary;  
+      border-right:  2px solid rgb(63, 62, 62);
+      padding: 0px 15px;
+      font-size: 14px ;
+      text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        color: rgba(0 ,0, 0, .58);
+        span{
+            font-size: 14px;
+        }
+    }
 }
