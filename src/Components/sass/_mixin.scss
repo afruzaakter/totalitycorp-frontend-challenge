@@ -13,7 +13,13 @@
     background-color: #fff;
     letter-spacing: -.01em;
 }
-
+@mixin button-basic{
+    margin-top: 15px;
+    background-color: #006241;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 700;
+}
 @mixin button-report{
     padding: 8px 30px;
     text-align: center;

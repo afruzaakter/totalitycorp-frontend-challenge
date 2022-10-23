@@ -176,3 +176,74 @@ img {
     }
 
 }
+
+//pumpkin banner
+
+.pumpkin-banner {
+    width: 100%;
+    height: 584px;
+    background-color: #006241;
+    .banner-img{
+        width: 68%;
+    }
+    img{
+        
+        object-fit: cover;
+    }
+    .banner-content{
+        padding: 20px;
+      
+        h1{
+            color: #ffffff;
+            font-size: 48px;
+        }
+        p{
+            color: #ffffff; 
+            font-size: 24px
+        }
+        button {
+            @include button-report;
+            @include button-basic;
+        }
+        button:hover{
+            @include button-report;
+            background-color: #32755f;    
+        }
+    }
+}
+
+//apple yum banner
+.appleyum-banner{
+    width: 100%;
+    height: 585px;
+    background-color: #006241;
+    .banner-img{
+        width: 68%;
+    }
+    .banner-img{
+        width: 79%;
+    }
+    img{
+        
+        object-fit: cover;
+    }
+    .banner-content{
+        
+        h1{
+            color: #ffffff;
+            font-size: 48px;
+        }
+        p{
+            color: #ffffff; 
+            font-size: 24px
+        }
+        button {
+            @include button-report;
+            @include button-basic;
+        }
+        button:hover{
+            @include button-report;
+            background-color: #32755f;    
+        }
+    }
+}
