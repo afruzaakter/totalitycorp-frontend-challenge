@@ -1,10 +1,11 @@
-# Project Live Link:
+# Starbucks
 
- [Live Link](https://boisterous-fairy-93f2b0.netlify.app/).
+ [To see the Live site click here](https://boisterous-fairy-93f2b0.netlify.app/).
 
-## Starbucks
+## Features
 
-In the project directory, you can run:
+. A Modern day template.
+
 
 ### `Project Overview`
 
