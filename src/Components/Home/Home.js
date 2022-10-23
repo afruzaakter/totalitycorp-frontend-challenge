@@ -2,9 +2,11 @@ import React from 'react';
 import AppleyumBanner from '../Banner/AppleyumBanner';
 import Banner from '../Banner/Banner';
 import CardContent from '../Banner/CardContent';
+import Contact from '../Banner/Contact';
 import PumpkinBanner from '../Banner/PumpkinBanner';
 import PurchaseBanner from '../Banner/PurchaseBanner';
 import SkymilesBanner from '../Banner/SkymilesBanner';
+import SocialIcon from '../Banner/SocialIcon';
 import "../sass/style.scss"
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <AppleyumBanner/>
             <PurchaseBanner/>
             <CardContent/>
+            <Contact/>
+            <SocialIcon/>
        
         </div>
     );
